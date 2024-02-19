@@ -1,0 +1,19 @@
+<div class="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card  mb-3" style="max-width: 18rem;" *ngIf="user">
+                    <div class="card-header bg-transparent ">User Details</div>
+                    <div class="card-body">
+                      <p class="card-text">Name: {{user.name}}</p>
+                      <p class="card-text">Email: {{user.email}}</p>
+                      <p class="card-text">Date: {{user.created_at}}</p>
+                    </div>
+                    <div class="card-footer bg-transparent ">
+                        <a [routerLink]="['/logout']" class="submit_button w-50" type="button" mat-raised-button color="primary">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
