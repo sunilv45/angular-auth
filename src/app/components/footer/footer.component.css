@@ -1,0 +1,28 @@
+footer.footer-bg {
+    background-color: #f8f9fa;
+    padding: 25px 0px;
+}
+
+footer ul.nav-links li {
+    display: inline-block;
+}
+
+footer ul.nav-links li a{
+    padding: 10px 28px;
+    color: #000;
+    font-size: 18px;
+}
+
+footer .social h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+footer .social ul li {
+    display: inline-block;
+}
+
+footer .social ul li a{
+    display: inline-block;
+    padding: 10px 15px;
+}

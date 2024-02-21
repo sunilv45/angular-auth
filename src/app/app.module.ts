@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { LucideAngularModule, File, Home, Menu, UserCheck,UserCircle } from 'lucide-angular';
+import { LucideAngularModule, File, Home, Menu, UserCheck,UserCircle,Instagram,Facebook,Twitter,Linkedin,Github } from 'lucide-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +21,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     ResetPasswordComponent,
     DashboardComponent,
     HomeComponent,
-    LogoutComponent
+    LogoutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatSnackBarModule,
     FormsModule,
     HttpClientModule,
-    LucideAngularModule.pick({File, Home, Menu, UserCheck,UserCircle}),
+    LucideAngularModule.pick({File, Home, Menu, UserCheck,UserCircle,Instagram,Facebook,Twitter,Linkedin,Github}),
     BrowserAnimationsModule
   ],
   providers: [],
