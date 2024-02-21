@@ -1,21 +1,13 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-=======
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { AuthenticationService } from 'src/app/services/authentication.service';
 import { SnackbarService } from 'src/app/services/snackbar/snackbar.service';
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 
 @Component({
   selector: 'app-forgot-password',
   templateUrl: './forgot-password.component.html',
   styleUrls: ['./forgot-password.component.css']
 })
-<<<<<<< HEAD
-export class ForgotPasswordComponent {
-
-=======
 export class ForgotPasswordComponent implements OnInit{
 
   error= {
@@ -51,5 +43,4 @@ export class ForgotPasswordComponent implements OnInit{
       this.error = err.error.errors;
     });
   }
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 }

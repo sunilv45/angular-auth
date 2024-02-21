@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { Router } from '@angular/router';
 import { AuthenticationService } from 'src/app/services/authentication.service';
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 
 @Component({
   selector: 'app-logout',
@@ -12,8 +9,6 @@ import { AuthenticationService } from 'src/app/services/authentication.service';
 })
 export class LogoutComponent {
 
-<<<<<<< HEAD
-=======
   checkbox:boolean = false;
   constructor(
     private auth: AuthenticationService,
@@ -36,5 +31,4 @@ export class LogoutComponent {
       console.log(err);
     })
   }
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 }

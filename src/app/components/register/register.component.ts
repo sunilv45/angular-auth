@@ -1,21 +1,13 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-=======
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthenticationService } from 'src/app/services/authentication.service';
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-<<<<<<< HEAD
-export class RegisterComponent {
-
-=======
 export class RegisterComponent implements OnInit {
   errors = {
     name:null,
@@ -44,5 +36,4 @@ export class RegisterComponent implements OnInit {
       //console.log(err.error.errors);
     })
   }
->>>>>>> 201dc662e71c75e564418310592a2356da650c1d
 }
